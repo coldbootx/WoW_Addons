@@ -1,0 +1,25 @@
+Install the addon:
+Copy NetInfo Folder to World of Warcraft Addon directory:
+"C:\Program Files (x86)\World of Warcraft\_classic_era_\Interface\AddOns" on Windows.
+
+Restart / reload UI:
+Start (or restart) WoW. On the character selection screen, click the AddOns button in the lower‑left corner and verify that “NetInfo” appears and is enabled.
+
+If you already have the game running, you can type /reload in chat after placing the files to load the addon without restarting.
+
+You can toggle its visibility anytime with the slash command:
+
+"/netinfo"
+
+Move the window:
+Click and hold anywhere on the blue‑bordered frame, then drag it to wherever you like on the screen. The code already enables “drag‑anywhere” support.
+
+What NetInfo displays:
+The overlay displays the following metrics (updated once per second):
+Fps:			Current frames‑per‑second
+Current latency:	Ping to the server (red if < 25 ms)
+Incoming bandwidth:	KB/s received
+Outgoing bandwidth:	KB/s sent
+Memory (this addon):	How much RAM the NetInfo addon itself is using
+Avg latency (5 min):	Rolling average of latency over the last five minutes
+Total addon memory:	Combined memory usage of all loaded addons

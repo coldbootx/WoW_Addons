@@ -1,0 +1,9 @@
+## Interface: 11302
+## Title: NetInfo
+## Notes: Classic‑compatible performance overlay (CPU, FPS, latency, bandwidth, and memory usage.)
+## Author: William Butler
+## WoW character: Feroartt-Westfall
+## Contact: coldboot@mailfence.com
+## Version: 1.2
+## LoadOnDemand: false
+NetInfo.lua
