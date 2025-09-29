@@ -1,9 +1,0 @@
-My contact information
-
-Please feel free to contact me with any questions, comments, or concerns or report any issues.
-All constructive criticism is welcome.
-If you wish to use encryption please don't forget to sent me your key as well.
-I have included my PGP key: cold_boot_pub.asc
-
-Thank You,
-William Butler (coldboot@mailfence.com)
