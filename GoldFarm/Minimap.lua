@@ -21,7 +21,7 @@ function GoldFarm:CreateMinimapButton()
     self.minimapButton:RegisterForDrag("LeftButton")
     
     -- Click handlers
-    self.minimapButton:SetScript("OnClick", function(frame, button)
+    self.minimapButton:SetScript("OnMouseUp", function(frame, button)
         if button == "LeftButton" then
             if self.db.isRunning then
                 self:StopSession()
@@ -29,6 +29,9 @@ function GoldFarm:CreateMinimapButton()
                 self:StartSession()
             end
         elseif button == "RightButton" then
+            if self.db.isRunning then
+                self:ResetSession()
+            end
             self:ResetSession()
         end
     end)
