@@ -1,0 +1,35 @@
+NetInfo Classic – Release Notes v1.1
+
+NetInfo Classic is a lightweight, fully localized addon that displays real-time performance and addon information for WoW Classic.
+
+Features
+
+Frames Per Second: Displays your current FPS labeled as “Frames Per Second”.
+
+Latency: Shows Home and World latency, highlighting values above 25ms in red.
+
+Addon Memory Usage: Lists memory usage per addon and total memory in MB.
+
+Tooltip Instructions: Hover for instructions with clearly colored blue/white labels.
+
+Resizable UI: Drag the bottom-right corner to resize the frame.
+
+Shift-Click Controls:
+
+Shift + Left Click → Move frame
+
+Shift + Right Click → Show/Hide frame
+
+Slash Commands: /netinfo help, /netinfo version, /netinfo show, /netinfo hide
+
+Localization Support: Full support for all official WoW Classic languages via external locale files.
+
+Auto-Show: Frame automatically appears on login.
+
+Notes
+
+Designed specifically for WoW Classic (not retail).
+
+Memory usage now displayed in MB for clarity.
+
+Easy to install—just drop the folder into your AddOns directory.
