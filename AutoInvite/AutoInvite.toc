@@ -1,5 +1,0 @@
-## Interface: 11404
-## Title: Auto Invite
-## Notes: Automatically invites players who whisper "inv", can be changed on the command line.
-
-AutoInvite.lua
