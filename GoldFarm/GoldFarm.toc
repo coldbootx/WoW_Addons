@@ -1,10 +1,11 @@
 ## Interface: 11404
 ## Title: GoldFarm
 ## Notes: Tracks gold income, vendor sales, and repairs per farming session.
-## Author: Will Butler
+## Author: Feroart
 ## Version: 1.0.1
 ## SavedVariables: GoldFarmDB
 
 GoldFarm.lua
 GUI.lua
 Minimap.lua
+
