@@ -1,5 +1,5 @@
 NetInfo Classic Era WoW Addon
-Version: 1.1
+Version: 1.2
 Author: William Butler
 
 Features:
@@ -30,3 +30,4 @@ Localization:
 - Korean (koKR)
 - Simplified Chinese (zhCN)
 - Traditional Chinese (zhTW)
+
