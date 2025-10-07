@@ -1,0 +1,25 @@
+## Interface: 11404
+## Author: Feroartt
+## Title: NetInfo
+## Version: 1.3
+## Notes: Displays FPS, Latency, Addon Memory with localization
+## DefaultState: enabled
+## X-Category: Tool Tip
+## X-Website: https://www.curseforge.com/wow/addons/netinfo
+## X-Curse-Project-ID: 1357613
+## X-License: MIT
+## SavedVariables: NetInfoDB
+
+# Localization Files
+Locales/enUS.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/esES.lua
+Locales/esMX.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+
+# Main Addon
+NetInfo.lua
