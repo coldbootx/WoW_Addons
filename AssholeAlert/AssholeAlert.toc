@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: AssholeAlert
+## Notes: Alerts when players are nearby
+## Author: Feroartt
+## Version: 1.0
+## SavedVariables: AssholeAlertDB
+
+AssholeAlert.lua
