@@ -48,7 +48,4 @@ Troubleshooting:
 
 Privacy / Safety:
 - The addon only reads nameplate/unit info provided by the client (UnitName, UnitGUID, UnitIsPlayer, UnitPosition) and stores tracked names locally in `AssholeAlertDB` on your machine.
-
-Advanced / Next steps (optional):
-- Add a lightweight manual diagnostics command that prints counts (nameplates found, tracked players) instead of verbose dumps.
 - Add combat-log fallback to detect tracked players when nameplates are hidden.
