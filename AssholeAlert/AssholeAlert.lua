@@ -2,6 +2,11 @@
 
 local ADDON_NAME, ns = "AssholeAlert", {}
 local frame = CreateFrame("Frame")
+local lightBlue = {0, 0.8, 1, 1}
+local white = {1, 1, 1, 1}
+local red       = {1, 0, 0, 1}
+local yellow    = {1, 1, 0, 1}
+local purple    = {0.6, 0, 0.8, 1}
 
 -- Color palette for outputs
 local colors = {
@@ -66,8 +71,8 @@ end
 -- Default configuration
 local defaultConfig = {
     checkInterval = 1.0,
-    alertDistance = 30,
-    alertCooldown = 5,
+    alertDistance = 500,
+    alertCooldown = 3,
     enableSound = true,
     enableFlashing = true,
     enableZoneFiltering = true,
@@ -90,14 +95,11 @@ local lastCheckTime = 0  -- For OnUpdate timer
 -- Excluded zones (safe areas)
 local excludedZones = {
     ["Orgrimmar"] = true,
-    ["Stormwind City"] = true,
+    --["Stormwind City"] = true,
     ["Ironforge"] = true,
     ["Thunder Bluff"] = true,
-    ["Darnassus"] = true,
+    --["Darnassus"] = true,
     ["Undercity"] = true,
-    ["Shattrath City"] = true,
-    ["Dalaran"] = true,
-    ["Dalaran (Northrend)"] = true
 }
 
 -- Debug print function
@@ -113,9 +115,9 @@ local function ValidatePlayerName(playerName)
     if string.len(playerName) < 2 or string.len(playerName) > 12 then
         return false, "Player name must be between 2-12 characters"
     end
-    if string.match(playerName, "[^a-zA-Z]") then
-        return false, "Player name contains invalid characters"
-    end
+    -- if string.match(playerName, "[^a-zA-Z]") then
+    --    return false, "Player name contains invalid characters"
+    --end
     return true, string.upper(playerName)
 end
 
