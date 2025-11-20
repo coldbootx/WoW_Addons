@@ -1,0 +1,9 @@
+Changelog for Advanced Auto Invite
+
+Version 1.1
+
+    Added slash command /aai as a shorter alias for /advancedautoinvite
+    Improved configuration loading and saving to ensure data persistence
+    Enhanced command parser to handle empty or invalid inputs gracefully
+    Updated user messages for clarity and consistency
+    Minor code refactoring for readability and maintainability
