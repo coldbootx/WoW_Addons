@@ -1,0 +1,14 @@
+## Interface: 11404
+## Author: Feroartt
+## Title: Advance Auto Invite|cFF00FF00 V-1.0|r
+## Version: 1.1
+## Notes: Auto-invite based on configurable keywords. Default is "inv".
+## DefaultState: enabled
+## X-Category: Chat & Communication
+## X-Website: https://www.curseforge.com/wow/addons/advancedautoinvite
+## X-Curse-Project-ID: 1387306
+## X-License: MIT
+## SavedVariables: AdvancedAutoInviteDB
+
+## Main Addon
+AdvancedAutoInvite.lua
