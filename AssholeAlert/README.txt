@@ -138,11 +138,8 @@ COMPATIBILITY
 
 AUTHOR NOTES
 ------------
-This addon is designed for player awareness and safety monitoring.
-Use responsibly and in accordance with WoW's Terms of Service.
+Created for the WoW Classic community by Feroartt
 
 SUPPORT
 -------
 For issues or feature requests, check the addon's distribution source.
-
-ENJOY ENHANCED SITUATIONAL AWARENESS!
