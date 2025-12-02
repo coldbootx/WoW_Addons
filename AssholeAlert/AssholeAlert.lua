@@ -289,7 +289,7 @@ local function CheckForNearbyPlayers()
                             FlashText("ASSHOLE ALERT: " .. cleanName, 3)
                             print(colors.negative .. "ALERT: Player detected: " .. cleanName .. colors.reset)
                             if config.enableSound then
-                                pcall(PlaySound, 5679)  -- RAID_WARNING (wrapped to avoid runtime error)
+                                PlaySound(8959)  -- RAID_WARNING (wrapped to avoid runtime error)
                             end
                             return true  -- Alert triggered
                         end
