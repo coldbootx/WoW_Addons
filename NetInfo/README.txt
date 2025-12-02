@@ -116,10 +116,9 @@ v1.2 - Improved localization support
 v1.1 - Added slash commands and mouse controls
 v1.0 - Initial release
 
-AUTHOR & SUPPORT
+AUTHOR
 ----------------
-This addon is provided as-is. For issues or suggestions, check the
-original distribution source.
+Created for the WoW Classic community by Feroartt
 
 LICENSE
 -------
@@ -133,3 +132,4 @@ NOTES
 - Memory usage tracking uses Blizzard's AddOn memory API
 
 ENJOY MONITORING YOUR NETWORK PERFORMANCE!
+
