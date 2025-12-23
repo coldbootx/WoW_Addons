@@ -1,0 +1,43 @@
+Advanced Auto Invite - Changelog
+================================
+
+Version 1.3 (Current)
+- Fixed Cross-realm player invite security check issue
+- Added personalized whisper messages using {name} placeholder
+- Enhanced security checks with cross-realm player detection
+- Improved configuration validation and error handling
+- Added alias "/aai" for easier command access
+- Enhanced spam protection with automatic cache management
+- Improved slash command interface with better user feedback
+- Fixed various typos and variable name inconsistencies
+- Added comprehensive group capacity checking
+
+Version 1.1
+- Added spam protection system with configurable cooldown
+- Implemented saved variables persistence
+- Improved configuration management
+- Enhanced party/raid state detection
+- Added more color-coded status messages
+- Fixed minor bugs and improved stability
+
+Version 1.0
+- Initial release
+- Basic auto-invite functionality
+- Configurable keyword system
+- Whisper response system
+- Basic slash command interface
+
+Known Issues:
+- None currently reported
+
+Planned Features:
+- Blacklist/whitelist system
+- Advanced permission settings
+- Group role checking
+- Level range restrictions
+- Zone-based invitation controls
+
+Hotfixes:
+- Fixed critical API compatibility issues with ignore list checking
+- Resolved variable naming inconsistencies throughout the codebase
+- Improved error handling for edge cases
