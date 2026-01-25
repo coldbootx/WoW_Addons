@@ -10,7 +10,3 @@ My 2 1H/1H/shield Macro:
 #showtooltip AutoLoot
 /script if GetCVar("autoLootDefault") == "1" then SetCVar("autoLootDefault", "0") print("Auto Loot: Disabled") else SetCVar("autoLootDefault", "1") print("Auto Loot: Enabled") end
 /run UIErrorsFrame:Clear()
-
-
-
-{Star} Lerroy's {Star} Free Lock Picking Service @ the Org Bank!
