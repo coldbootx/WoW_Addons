@@ -1,0 +1,15 @@
+My 2 1H/1H/shield Macro:
+
+#showtooltip Weaponswap
+/equip [noequipped:shields] Zulian Defender
+/equipslot [equipped:shields] 17 Stormstrike Hammer
+/equipslot [equipped:shields] 16 Ancient Hakkari Manslayer
+/run UIErrorsFrame:Clear()
+
+
+#showtooltip AutoLoot
+/script if GetCVar("autoLootDefault") == "1" then SetCVar("autoLootDefault", "0") print("Auto Loot: Disabled") else SetCVar("autoLootDefault", "1") print("Auto Loot: Enabled") end
+/run UIErrorsFrame:Clear()
+
+
+{Star} Lerroy's {Star} Free Lock Picking Service @ the Org Bank!
