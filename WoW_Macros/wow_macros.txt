@@ -6,7 +6,23 @@ My 2 1H/1H/shield Macro:
 /equipslot [equipped:shields] 16 Axe of the Deep Woods
 /run UIErrorsFrame:Clear()
 
+#showtooltip Daggers
+/equipslot 16 Shirk
+/equipslot 17 Bonescraper
+/run UIErrorsFrame:Clear()
+
+#showtooltip Swords
+/equipslot 16 Thrash Blade
+/equipslot 17 Krol Blade
+/run UIErrorsFrame:Clear()
+
+#showtooltip Anti-Polly
+/equipslot 16 Krol Blade
+/equipslot 17 Skull of Impending Doom
+/use Skull of Impending Doom
+/run UIErrorsFrame:Clear()
 
 #showtooltip AutoLoot
 /script if GetCVar("autoLootDefault") == "1" then SetCVar("autoLootDefault", "0") print("Auto Loot: Disabled") else SetCVar("autoLootDefault", "1") print("Auto Loot: Enabled") end
 /run UIErrorsFrame:Clear()
+
